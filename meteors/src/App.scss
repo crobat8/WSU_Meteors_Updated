@@ -1,0 +1,24 @@
+.App{
+  display: flex;
+  width: 100%;
+
+}
+.filters{
+  flex: 1;
+  background-color: green;
+}
+.meteors{
+  flex: 2;
+  background-color: yellow;
+}
+.meteorList{
+  height: 500px;
+  overflow: auto;
+}
+.meteorInformation{
+  display: flex;
+  width: 100%;
+  div{
+    padding-left: 10px;
+  }
+}
